@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Educator & Author</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">JEETENDRA KUMAR</h1>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="modeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="fade-in">
+    <div class="hero-content">
+      <h2>Hello, I’m <span>JEETENDRA KUMAR</span> 👨‍🏫</h2>
+      <p>
+        <strong>Computer Science Educator | Author | Java Programmer | Designer</strong>  
+        <br><br>
+        I create curricula, write books, and mentor the next generation of innovators.  
+      </p>
+      <a href="#about" class="btn">About Me</a>
+      <a href="#contact" class="btn secondary">Let’s Connect</a>
+    </div>
+    <div class="hero-img-wrapper">
+      <img src="D:\2025_26\MY_PUBLICATION\Portfolio\images\Picture1.jpg" alt="Profile Picture" class="hero-img">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section fade-in">
+    <h2>About Me</h2>
+    <p>
+      I am a <strong>Computer Science educator</strong> passionate about teaching programming,  
+      database systems, and web technologies. Alongside teaching, I write books on parenting,  
+      technology, and language learning. My mission: to inspire curious learners 🌍.
+    </p>
+  </section>
+
+  <!-- Books -->
+  <section id="books" class="section fade-in">
+    <h2>Books & Publications</h2>
+    <div class="cards-grid">
+      <div class="card glass">
+        <img src="images/book1.jpg" alt="Book 1">
+        <h3>Parenting in the Digital Age</h3>
+        <p>Guiding parents to nurture children in today’s tech-driven world.</p>
+      </div>
+      <div class="card glass">
+        <img src="images/book2.jpg" alt="Book 2">
+        <h3>Programming Made Simple</h3>
+        <p>Java, databases, and web design explained for beginners.</p>
+      </div>
+      <div class="card glass">
+        <img src="images/book3.jpg" alt="Book 3">
+        <h3>Design Thinking for Educators</h3>
+        <p>Creative curriculum ideas for the classrooms of tomorrow.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching -->
+  <section id="teaching" class="section fade-in">
+    <h2>Teaching & Curriculum</h2>
+    <div class="cards-grid">
+      <div class="card glass">
+        <h3>Curriculum Design</h3>
+        <p>Developing innovative computer science curricula.</p>
+      </div>
+      <div class="card glass">
+        <h3>Mentorship</h3>
+        <p>Supporting learners in projects, research, and competitions.</p>
+      </div>
+      <div class="card glass">
+        <h3>Workshops</h3>
+        <p>Hands-on training in programming and tech innovation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section fade-in">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span class="skill">Java</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">Database Programming</span>
+      <span class="skill">Curriculum Design</span>
+      <span class="skill">Book Writing</span>
+      <span class="skill">UI/UX Design</span>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section fade-in">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Scroll to Top -->
+  <button id="scrollTopBtn">🔝</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 JEETENDRA KUMAR. Built with ❤️</p>
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
